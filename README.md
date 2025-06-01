@@ -8,7 +8,7 @@
     sudo apt update
     sudo apt install curl build-essential git
     curl https://sh.rustup.rs -sSf | sh -s -- -y
-    git clone https://git.disroot.org/UmutCamliyurt/Amnezichat_Server.git
+    git clone https://git.disroot.org/Amnezichat/Amnezichat_Server.git
     cd Amnezichat_Server
     cargo build --release
     cargo run --release
@@ -17,7 +17,7 @@
     
     sudo apt update
     sudo apt install docker.io git
-    git clone https://git.disroot.org/UmutCamliyurt/Amnezichat_Server.git
+    git clone https://git.disroot.org/Amnezichat/Amnezichat_Server.git
     cd Amnezichat_Server
     docker build --network=host -t amnezichat_server:latest .
     docker run --network=host amnezichat_server:latest
